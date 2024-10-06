@@ -1,0 +1,134 @@
+.vmenu {
+  text-align: center;
+  padding: 0px;
+  margin: 5px;
+  list-style: none;
+  border-radius: 3px;
+  box-shadow: 0 0 2px gray;
+}
+.vmenu a {
+  background: url("bullet_hover.gif") no-repeat 10px center;
+  display: block;
+  border-bottom: 1px dotted orangered;
+  color: orangered;
+  font-variant: small-caps;
+  font-size: larger;
+  text-decoration: none;
+  padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover {
+  background: url("bullet.png") no-repeat 10px center;
+  border-bottom: 1px dotted white;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
+}
+.col-25 {
+  width: 25%;
+  float: left;
+}
+
+.prod {
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+}
+.prod > .name {
+  font-variant: small-caps;
+  color: orangered;
+}
+.prod > .image {
+  max-width: 98%;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.prod > .price {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  font-family: Impact;
+  font-size: 25px;
+  color: orange;
+}
+
+.prod > .icons {
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  width: 25px;
+}
+
+.prod > .new-icon {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.lab7 {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+.container > header {
+  background-image: url("fpt7.PNG");
+  background-size: 100% 100%;
+  height: 0px;
+
+  padding-bottom: 25%;
+}
+.container > nav {
+  line-height: 40px;
+  background-color: orangered;
+  color: white;
+  text-align: left;
+  font-variant: small-caps;
+}
+.container > article {
+  min-height: 400px;
+  width: 75%;
+  background-color: white;
+  float: left;
+}
+.container > aside {
+  min-height: 400px;
+  width: 25%;
+  background-color: lightgray;
+  float: right;
+}
+.container > nav > a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.container > nav > a:hover {
+  color: yellow;
+}
+.container > footer {
+  border-top: 5px double orangered;
+  line-height: 50px;
+  background-color: lightcyan;
+  text-align: center;
+  font-variant: small-caps;
+  clear: both;
+}
+.iframe[name="page"] {
+  width: 100%;
+  min-height: 400px;
+}
+
+.dangnhap {
+  border-bottom-left-radius: 40px;
+  top: 0px;
+  right: 50%;
+  text-align: center;
+  background-color: red;
+  color: white;
+  width: 30%;
+}
